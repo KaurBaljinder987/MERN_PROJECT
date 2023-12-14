@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+/* Login.js */
+
+.image1,
+.image2,
+.h3,
+.para {
+    margin: auto;
+}
+
+.image1 img {
+    width: 191px;
+    height: 76px;
+}
+
+.image2 img {
+    width: 313px;
+    height: 299px;
+}
+
+.h3 {
+    font-family: Inter;
+    font-size: 17px;
+}
+
+.para {
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.feature-page {
+    display: flex;
+    padding: 30px;
+    height: 494px;
+}
+
+.img {
+    width: 70%;
+    display: grid;
+    justify-Content: center;
+}
+
+.wrapper {
+    width: 30%;
+    height: 492px;
+    display: grid;
+    justify-content: center;
+}
+
+.content {
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 20px rgb(202, 200, 200);
+    margin-top: 15px;
+}
+
+.h1 {
+    font-size: 1rem;
+    color: #07001f;
+    margin-bottom: 40px;
+    font-family: Inter;
+    padding-top: 24px;
+}
+
+.nav {
+    font-size: 1rem;
+    justify-content: left;
+    display: flex;
+    padding-left: 20px;
+}
+
+
+
+.input input {
+    width: 80%;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    padding: 11px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.terms a {
+    color: rgb(245, 130, 32);
+    font-weight: 520;
+    font-size: 18px;
+    font-family: Inter;
+    text-align: right;
+    display: block;
+    margin-right: 23px;
+    margin-top: 14px;
+}
+
+.button input {
+    font-size: 1rem;
+    margin-top: 15px;
+    width: 88%;
+    padding: 10px;
+    background-color: rgb(245, 130, 32);
+    border-radius: 5px;
+    outline: none;
+    color: #f5f5f5;
+    border: 1px solid #fff;
+    font-family: Inter;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: rgb(202, 202, 202);
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.button:hover input {
+    background: #12599b;
+}
+
+
+
+/* SIGN UP */
+.image1,
+.image2,
+.para1,
+.para2 {
+    margin: auto;
+}
+
+.image1 img1 {
+    width: 191px;
+    height: 76px;
+}
+
+.image2 img1 {
+    width: 313px;
+    height: 299px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.para1 {
+    font-family: Inter;
+    font-size: 17px;
+}
+
+.para2 {
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.feature-page1 {
+    display: flex;
+    padding: 30px;
+    height: 498px;
+}
+
+.img1 {
+    width: 70%;
+    display: grid;
+    justify-Content: center;
+}
+
+.wrapper1 {
+    width: 30%;
+    height: 499px;
+    display: grid;
+    justify-content: center;
+}
+
+.content1 {
+    width: 300px;
+    height: 499px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 20px rgb(202, 200, 200);
+}
+
+.hdng {
+    font-size: 1rem;
+    color: #07001f;
+    margin-bottom: 33px;
+    font-family: Inter;
+    padding-top: 0px;
+}
+
+
+
+.nav-item {
+    font-size: 1rem;
+    justify-content: left;
+    display: flex;
+    padding-left: 20px;
+}
+
+.paswd {
+    font-size: 1rem;
+    font-family: Inter;
+    margin-right: 127px;
+}
+
+.input1 input {
+    width: 80%;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+.button1 input {
+    font-size: 1rem;
+    margin-top: 25px;
+    width: 87%;
+    padding: 9px;
+    background-color: rgb(245, 130, 32);
+    border-radius: 5px;
+    outline: none;
+    color: #f5f5f5;
+    border: 1px solid #fff;
+    font-family: Inter;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: rgb(202, 202, 202);
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.button1:hover input {
+    background: #12599b;
+}
+
+
+
+
+
+/* PRODUCT TABLE */
+
+.App {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 2px solid forestgreen;
+    width: 800px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    border-bottom: 1px solid black;
+}
+
+td {
+    text-align: center;
+}
+
+/* addProduct button */
+.btnn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 240px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.btnn input {
+    font-size: 1rem;
+    padding: 9px;
+}
+
+/* product heading styling */
+.ph {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* logout btn */
+
+.logout-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 600px;
+    color: grey;
+    margin-top: 30px;
+}
+
+.logout-btn button {
+    font-size: 20px;
+    padding: 4px;
+}
+
+/* new product form */
+
+.pForm {
+    text-align: center;
+    margin-top: 30px;
+    height: 300px;
+
+}
+
+.pClass {
+    font-size: 20px;
+}
+
+.tClass {
+    margin-left: 30px;
+    border: transparent;
+    border-bottom: 1px solid #645e5e;
+}
+
+.aClass {
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bClass input {
+    font-size: 15px;
+    width: 60px;
+    padding: 3px;
+    margin-top: 8px;
+}
